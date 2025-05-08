@@ -1,6 +1,6 @@
 import './App.scss'
 import { useForm, type SubmitHandler } from 'react-hook-form'
-import { Checkbox } from './Checkbox/Checkbox'
+import { Checkbox } from '../Checkbox/Checkbox'
 
 interface IForm {
 email: string
