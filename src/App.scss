@@ -1,0 +1,75 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #4d4949;
+}
+
+
+
+form {
+  > input,
+  > textarea {
+    width: 100%;
+    display: block;
+    padding: 6px 8px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid grey;
+    transition: border-color 0.3s;
+    background-color: #444;
+    color: rgba(255, 255, 255, 0.87);
+    border-radius: 5px;
+
+    &::placeholder {
+          color: rgba(255, 255, 255, 0.5); 
+        }
+
+    &:focus {
+      border-color: aqua;
+      background-color: #444;
+    }
+  }
+    >textarea {
+      height: 10rem;
+      resize: none;
+      margin: 15px auto;
+      color: fff;
+    }
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  border: 1px solid grey;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #444;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: aqua;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
