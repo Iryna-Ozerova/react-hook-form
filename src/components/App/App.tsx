@@ -2,7 +2,7 @@ import './App.scss'
 import { useForm, type SubmitHandler } from 'react-hook-form'
 import { Checkbox } from '../Checkbox/Checkbox'
 
-interface IForm {
+export interface IForm {
 email: string
   message: string
   isImportant: boolean

@@ -1,5 +1,6 @@
-import { Control, Controller } from 'react-hook-form'
-import IForm from '../App/App'
+import { Controller } from 'react-hook-form'
+import type { Control } from 'react-hook-form'
+import type { IForm } from '../App/App'
 
 interface Props {
     control: Control<IForm>
