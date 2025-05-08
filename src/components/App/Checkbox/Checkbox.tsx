@@ -1,5 +1,5 @@
 import { Control, Controller } from 'react-hook-form'
-import IForm from './App'
+import IForm from '../App'
 
 interface Props {
     control: Control<IForm>
